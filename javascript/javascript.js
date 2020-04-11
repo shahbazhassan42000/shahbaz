@@ -1,5 +1,5 @@
-var button=doucment.getElementById("navbar");
+var button=document.getElementById("logo");
 function topFunction()
 {
-	doucment.doucmentElement.scrollTop=0;
+	document.documentElement.scrollTop=0;
 }
