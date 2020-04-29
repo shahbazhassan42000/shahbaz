@@ -1,1 +1,72 @@
+/*------------------------------Genral-------------------------------*/
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Concert One';
+}
+h1{
+	text-align: center;
+	margin:2% 0 3% 0;
+}
+section{
+	background-color: #999999;
+	border: 2px solid black;
+	float: left;
+}
+p{
+	padding: 2%;
+	margin-top: 27px;
+}
+h2{
+	float: right;
+	padding: 0 5%;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+}
+.sec1{
+	background-color: #D59898;
+}
+.sec2{
+	background-color: #C14543;
+	color: white;
+}
+.sec3{
+	background-color: #E5D198;
+}
+/*---------------------------------Desktop View---------------------------*/
+@media (min-width: 992px)
+{
+	.left{
+		margin-left: 2%;
+	}
+	section{
+		width: 30.66%;
+		margin-right: 2%;
+	}
+}
+/*---------------------------------Tablet View---------------------------*/
+@media (min-width: 768px) and (max-width: 991px)
+{
+	.left{
+		margin:0 1% 0 2%;
+		width: 47%;
+	}
+	.center{
+		margin:0 2% 0 1%;
+		width: 47%;
+	}
+	.right{
+		margin:2%;
+	}
+}
+/*---------------------------------Mobile View---------------------------*/
+@media (max-width: 767px)
+{
+	section{
+		width: 86%;
+		margin:0 7% 3% 7%;
+	}
+}
+
 
